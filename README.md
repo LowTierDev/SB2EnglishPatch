@@ -1,28 +1,40 @@
 # SB2EnglishPatch
 All the code used in creating the english patch for the ps2 version of Sengoku Basara 2
+<br>Original Start Date: 00/05/2020
 
-Original Start Date: 00/05/2020
-Just started moving things to git today, trying to organize and clean things up a little
+### Structure
+- tools	:	For subroutines used for gathering pieces of information / finding addresses
+- src		:	The actual code used to test and view the translation via EMU
+- build	:	Will be used to convert the src code into an actual patch
 
-Currently there are two folders:
+### Goal
+- translate prep menu descriptions
+- translate stages
+- translate option descriptions
+- translate prep menu items
 
-tools	:	For subroutines used for gathering pieces of information / finding addresses
-src		:	The actual code used to test and view the translation via EMU
-build	:	Will be used to convert the src code into an actual patch
+### Future Goals
+- Prep Menu Character Moves
+- Prep Menu Character weapons / armor
+- Prep Menu Shop Items
+- Prep Menu Map
+- In game character dialog
+- In game Pause Menu
+- In Game Objectives
+- Gallery Awards
 
-Because PCSX2 has a limit of ~1000 lines of code for cheats, the items have been split up into seperate files for src / testing
-For the actual build items will be grouped together
+### Notes
+1) Because PCSX2 has a limit of ~1000 lines of code for cheats, the items have been split up into seperate files for src / testing
 
-Currently as an initial release the goal is to establish the option descriptions, prep menu descriptions, stages and items in english
+### Outside Tools
+- Character Maping: https://docs.google.com/spreadsheets/d/1KjeKed67OZX2e39cFMlTmvie0qvrVFD2atiXyYQZ0vw/edit?usp=sharing
+- Convert English to hex: https://github.com/LowTierDev/ASCII2SHIFTJIS
 
-Future Possibilities:
-The system as a whole works more as an array based fashion, plans in the future include revamping this to become a tree like structure.
-Translating Character Moves, Shop Items, In game character dialog, awards, Gallery items and Prep Menu Map
-
-Need Help With:
-- Loading data from the disc into RAM
-- Gaining access to Addresses for the items
-- Filling out the character mapping
-- testing
-- filling out Wiki and Pics on github
-- Creating docs for future translations and the tools used
+### Help Me
+Based on priority:
+1) Loading data from the disc into RAM
+2) Gaining access to Addresses for text
+3) Filling out the character mapping
+4) testing
+5) filling out Wiki and Pics on github
+6) Creating docs for future translations and the tools used
