@@ -29,6 +29,10 @@ All the code used in creating the english patch for the ps2 version of Sengoku B
 ### Outside Tools
 - Character Maping: https://docs.google.com/spreadsheets/d/1KjeKed67OZX2e39cFMlTmvie0qvrVFD2atiXyYQZ0vw/edit?usp=sharing
 - Convert English to hex: https://github.com/LowTierDev/ASCII2SHIFTJIS
+- PCSX2dis: https://forums.pcsx2.net/Thread-PCSX2dis-v1-1-A-ps2dis-inspired-PCSX2-enabled-Game-Hacking-Tool-W-I-P-13-02-2015
+- ps2dis099_23 :http://www.geocities.ws/SiliconValley/Station/8269/ps2dis/index.html
+- Cheat Engine: https://www.cheatengine.org/
+- CodeDesigner v2.3: https://gamehacking.org/vb/forum/video-game-hacking-and-development/research-development/6943-gtlcpimp-s-codedesigner#post95738
 
 ### Help Me
 Based on priority:
