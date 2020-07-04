@@ -4,7 +4,7 @@ All the code used in creating the english patch for the ps2 version of Sengoku B
 
 ### Structure
 - tools	:	For subroutines used for gathering pieces of information / finding addresses
-- src			:	The actual code used to test and view the translation via EMU
+- src:	The actual code used to test and view the translation via EMU
 - build	:	Will be used to convert the src code into an actual patch
 
 ### Goal
@@ -25,22 +25,14 @@ All the code used in creating the english patch for the ps2 version of Sengoku B
 
 ### Notes
 1) Because PCSX2 has a limit of ~1000 lines of code for cheats, the items have been split up into seperate files for src / testing
-
-### Outside Tools
-- Character Maping: https://docs.google.com/spreadsheets/d/1KjeKed67OZX2e39cFMlTmvie0qvrVFD2atiXyYQZ0vw/edit?usp=sharing
-- Convert English to hex: https://github.com/LowTierDev/ASCII2SHIFTJIS
-- PCSX2dis: https://forums.pcsx2.net/Thread-PCSX2dis-v1-1-A-ps2dis-inspired-PCSX2-enabled-Game-Hacking-Tool-W-I-P-13-02-2015
-- ps2dis099_23 :http://www.geocities.ws/SiliconValley/Station/8269/ps2dis/index.html
-- Cheat Engine: https://www.cheatengine.org/
-- CodeDesigner v2.3: https://gamehacking.org/vb/forum/video-game-hacking-and-development/research-development/6943-gtlcpimp-s-codedesigner#post95738
-- ps2sdk: https://github.com/ps2dev/ps2sdk
-- QuickBMS: https://aluigi.altervista.org/quickbms.htm
+2) Currently considering trying to revamp as much as possible which would be much more then a small hex mod as the dummy file could be left alone and each individual translation file could be used instead
 
 ### Help Me
 Based on priority:
-1) Obtain Assembly from ps2sdk code for loading data from Disc to Ram
-2) Gaining access to Addresses for text
-3) Filling out the character mapping
-4) testing
-5) filling out Wiki and Pics on github
-6) Creating docs for future translations and the tools used
+1) Obtain Assembly from ps2sdk code for loading data from Disc to Ram and testing it!
+2) Translate and add subtitles to videos
+3) Figure out how "static text" is displayed and manipulating it
+4) Gaining access to regular Addresses for rendered text
+5) testing
+6) Filling out the character mapping
+7) Creating docs for future translations and the tools used

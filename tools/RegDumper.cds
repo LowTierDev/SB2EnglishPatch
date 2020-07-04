@@ -6,7 +6,7 @@ Quick little sub to dump all the registers at any point
 
 // Hook
 
-address $0025CA84
+address $001E9C94
 J $000C0000
 nop
 
@@ -45,6 +45,6 @@ nop
 // The Original Commands
 address $000C1000
 Finish:
-sll a1, a1, 24
-sd ra, $0000(sp)
-J $0025CA8C
+daddu a2, s0, zero
+daddu a0, v0, zero
+J $001E9C9C
