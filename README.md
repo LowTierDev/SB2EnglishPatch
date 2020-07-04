@@ -4,7 +4,7 @@ All the code used in creating the english patch for the ps2 version of Sengoku B
 
 ### Structure
 - tools	:	For subroutines used for gathering pieces of information / finding addresses
-- src		:	The actual code used to test and view the translation via EMU
+- src			:	The actual code used to test and view the translation via EMU
 - build	:	Will be used to convert the src code into an actual patch
 
 ### Goal
@@ -33,10 +33,12 @@ All the code used in creating the english patch for the ps2 version of Sengoku B
 - ps2dis099_23 :http://www.geocities.ws/SiliconValley/Station/8269/ps2dis/index.html
 - Cheat Engine: https://www.cheatengine.org/
 - CodeDesigner v2.3: https://gamehacking.org/vb/forum/video-game-hacking-and-development/research-development/6943-gtlcpimp-s-codedesigner#post95738
+- ps2sdk: https://github.com/ps2dev/ps2sdk
+- QuickBMS: https://aluigi.altervista.org/quickbms.htm
 
 ### Help Me
 Based on priority:
-1) Loading data from the disc into RAM
+1) Obtain Assembly from ps2sdk code for loading data from Disc to Ram
 2) Gaining access to Addresses for text
 3) Filling out the character mapping
 4) testing

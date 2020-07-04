@@ -1,0 +1,15 @@
+# BloodRaynare's FPK script for unpacking SB2 files
+# Used with the id_ files, it was possible to locate the matching text within
+# the game for saving. This was found in conjunction with the character mapping
+idstring "#fpk"
+get FILES long
+get UNK long # Values is always 0x10
+get HEADSIZE long # File's header info length. Probably wasn't needed for extraction but still included for completeness.
+for i = 0 < FILES
+   get OFFSET long
+   get SIZE long
+   get FNAME basename
+   math i + 1
+   string NAME p= "%s\%s_%03i." FNAME FNAME i
+   log NAME OFFSET SIZE
+next

@@ -1,9 +1,12 @@
 Thanks to:
 ------------------------------
-- EdnessPlays / Edness
-- Sengoku Basara Wiki
-- OboroTennosuke
-- scottvirus
+- Edness	: Character Mapping
+- SB Wiki	: Translation
+- OboroTennosuke: Tanslation
+- scottvirus	: Translation
+- uyjulian	: ps2sdk code help
+- SP193		: ps2sdk code help
+- BloodRaynare	: Unpacking FPK files
 
 Resources Used:
 ------------------------------
