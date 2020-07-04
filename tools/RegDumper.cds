@@ -6,19 +6,12 @@ Quick little sub to dump all the registers at any point
 
 // Hook
 
-address $001EF568
+address $0025CA84
 J $000C0000
 nop
 
-address $000A1000
-hexcode $01D91ADC
-
 address $000C0000
 lui t9, $000A
-lw a3, $0090(sp)
-lw v1, $1000(t9)
-bne v1, a3, :Finish
-nop
 sw v0, $0000(t9)
 sw v1, $0004(t9)
 sw a0, $0008(t9)
@@ -52,6 +45,6 @@ nop
 // The Original Commands
 address $000C1000
 Finish:
-sw v0, $0094(sp)
-lw v0, $0090(sp)
-J $001EF570
+sll a1, a1, 24
+sd ra, $0000(sp)
+J $0025CA8C

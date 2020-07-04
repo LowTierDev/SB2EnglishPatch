@@ -31,15 +31,15 @@ hexcode $000B3404
 hexcode $01E21E84   // Item Description 12x5
 hexcode $000B349C
 hexcode $01E22F4A   // Item Description 13x1
-hexcode $
+hexcode $000B3500
 hexcode $01E2292A   // Item Description 13x2
-hexcode $
+hexcode $000B356C
 hexcode $01E2295E   // Item Description 13x3
-hexcode $
+hexcode $000B35D0
 hexcode $01E229CC   // Item Description 13x4
-hexcode $
+hexcode $000B3654
 hexcode $01E229F6   // Item Description 13x5
-hexcode $
+hexcode $000B36C4
 hexcode $01E21B72   // Item Description 14x1
 hexcode $
 hexcode $01E21B9E   // Item Description 14x2
@@ -426,6 +426,158 @@ hexcode $00180019
 hexcode $001C0028
 hexcode $FFFF0028
 
+address $000B3500
+hexcode $00180019
+hexcode $00290029
+hexcode $001C0022
+hexcode $00200000
+hexcode $00000028
+hexcode $0018002C
+hexcode $001C001E
+hexcode $0000001B
+hexcode $001F002C
+hexcode $00220020
+hexcode $0000001C
+hexcode $001F0029
+hexcode $0000001C
+hexcode $001E0019
+hexcode $FFFE0023
+hexcode $001C0019
+hexcode $0025001A
+hexcode $001C0023
+hexcode $00000028
+hexcode $001F0029
+hexcode $0000001C
+hexcode $001F0029
+hexcode $0023001C
+hexcode $0000001C
+hexcode $00250028
+hexcode $001E0024
+hexcode $0000FFFF
+
+address $000B356C
+hexcode $00180019
+hexcode $00290029
+hexcode $001C0022
+hexcode $00200000
+hexcode $00000028
+hexcode $0018002C
+hexcode $001C001E
+hexcode $0000001B
+hexcode $001F002C
+hexcode $00220020
+hexcode $0000001C
+hexcode $001F0029
+hexcode $0000001C
+hexcode $001E0019
+hexcode $FFFE0023
+hexcode $001C0019
+hexcode $0025001A
+hexcode $001C0023
+hexcode $00000028
+hexcode $0024001C
+hexcode $0020001B
+hexcode $001E0024
+hexcode $00280000
+hexcode $00240025
+hexcode $FFFF001E
+
+address $000B35D0
+hexcode $00180019
+hexcode $00290029
+hexcode $001C0022
+hexcode $00200000
+hexcode $00000028
+hexcode $0018002C
+hexcode $001C001E
+hexcode $0000001B
+hexcode $001F002C
+hexcode $00220020
+hexcode $0000001C
+hexcode $001F0029
+hexcode $0000001C
+hexcode $001E0019
+hexcode $FFFE0023
+hexcode $001C0019
+hexcode $0025001A
+hexcode $001C0023
+hexcode $00000028
+hexcode $001F0029
+hexcode $0023001C
+hexcode $0000001C
+hexcode $001D0025
+hexcode $00280000
+hexcode $0022001C
+hexcode $001A001C
+hexcode $001C0029
+hexcode $0000001B
+hexcode $001F001A
+hexcode $00270018
+hexcode $001A0018
+hexcode $001C0029
+hexcode $FFFF0027
+
+address $000B3654
+hexcode $0025002E
+hexcode $0000002A
+hexcode $00270018
+hexcode $0000001C
+hexcode $00240020
+hexcode $00180000
+hexcode $001E0000
+hexcode $00250025
+hexcode $0000001B
+hexcode $00250023
+hexcode $001B0025
+hexcode $00190000
+hexcode $001A001C
+hexcode $002A0018
+hexcode $001C0028
+hexcode $00250000
+hexcode $FFFE001D
+hexcode $0025002E
+hexcode $0027002A
+hexcode $00180000
+hexcode $00220022
+hexcode $001C0020
+hexcode $00000028
+hexcode $001F001A
+hexcode $001C001C
+hexcode $00200027
+hexcode $001E0024
+hexcode $0000FFFF
+
+address $000B36C4
+hexcode $00000018
+hexcode $001C0019
+hexcode $002A0018
+hexcode $00200029
+hexcode $002A001D
+hexcode $00000022
+hexcode $00180023
+hexcode $001B0020
+hexcode $002C0000
+hexcode $00220020
+hexcode $00000022
+hexcode $0025001D
+hexcode $00220022
+hexcode $002C0025
+hexcode $002E0000
+hexcode $002A0025
+hexcode $0018FFFE
+hexcode $001B0024
+hexcode $001E0000
+hexcode $002B0020
+hexcode $0000001C
+hexcode $0025002E
+hexcode $0000002A
+hexcode $00180019
+hexcode $00180028
+hexcode $00180027
+hexcode $001E0000
+hexcode $002A0025
+hexcode $001B0027
+hexcode $FFFF0028
 
 
 //	  SWITCH TEXT POINTER	    \\
